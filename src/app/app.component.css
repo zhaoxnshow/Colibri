@@ -1,0 +1,28 @@
+.style-guide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #00c4fe;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.goHome{
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #6b7de1;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+<div class="first-cpt">
+  <h2>{{ title }}</h2>
+  <div class="input-div">
+    <input type="text" id="text01" class="input-val" checkChange [compValObj]="initData.SnapAtmGeneralInfo.SAPMSABacklog" [reviewFlag]='reviewFlag' [(ngModel)]="initData.SnapAtmGeneralInfo.SAPMSABacklog.last">
+  </div>
+  <div class="input-div">
+    <input type="text" id="text02" class="input-val" checkChange [compValObj]="initData.SnapAtmGeneralInfo.NetRevenuePrice" [reviewFlag]='reviewFlag' [(ngModel)]="initData.SnapAtmGeneralInfo.NetRevenuePrice.last">
+  </div>
+  <div class="input-div">
+    <input type="text" id="text03" class="input-val" checkChange [compValObj]="initData.SnapAtmGeneralInfo.MMSIDName" [reviewFlag]='reviewFlag' [(ngModel)]="initData.SnapAtmGeneralInfo.MMSIDName.last">
+  </div>
+  <button (click)="isReview()">{{ buttonName }}</button>&nbsp;&nbsp;
+  <button (click)="save()">Save</button>
+</div>

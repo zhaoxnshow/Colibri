@@ -1,0 +1,9 @@
+<div class="bg-gray">
+
+</div>
+<h3>Welcome! This assessment will determine what questions and data is needed to complete the Accounting Treatment Memo (ATM) for your contract.</h3>
+<p>Within MMS, the Customer Name is listed as "Parent Account" and the Customer Number is listed as "FC Customer SAP ID". To find these items, navigate to the Opportunity screen of MMS, under Fundamentals. Click on the Customer Relationship name to view the hierarchy which lists Parent Account and FC Customer SAP ID. For screen shot tutorial refer to the FAQ. These items can also be found in SAP in either CJ20N (Partner Tab) or VA43 under the Sold-to Party. If you do not see the required Customer in the search results below, you should ensure you have a role in MMS on the applicable Opportunity, Customer, or Master Client.
+    What is the Customer Name (or Customer Number) for this contract ?</p>
+<input type="text" class="atm-clientInput" [(ngModel)]="model" [ngbTypeahead]="search"/>
+<br/>
+<button class="button">Back</button>
